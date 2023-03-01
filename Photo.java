@@ -14,5 +14,29 @@ public class Photo {
 
     }
 
+    public String getUrl(){
+        return this.url;
+    }
+    public String getFilename(){
+        return this.filename;
+    }
+    public int getWidth(){
+        return this.width;
+    }
+    public int getHeight(){
+        return this.height;
+    }
+    public void setUrl(String url){
+        this.url = url;
+    }
+    public void getFilename(String filename){
+        this.filename = filename;
+    }
+    public void getWidth(int width){
+        this.width = width;
+    }
+    public void getHeight(int height){
+        this.height = height;
+    }
 
 }
